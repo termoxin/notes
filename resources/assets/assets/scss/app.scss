@@ -1,0 +1,51 @@
+
+body {
+	font-family: 'Gamja Flower', cursive;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+.open {
+	position: relative;
+	left:40vw;
+	bottom:50px;
+}
+.login {
+	padding: 150px;
+}
+.hide {
+	display: none;
+}
+.add {
+	position: relative;
+	left: 40vw;
+	top: 50vh;
+}
+.container-note {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	font-size:18px;
+	width: 100%;
+	padding-left:15%;
+	padding-right:15%;
+}
+.list__tile__title {
+	color: white;
+}
+textarea {
+	resize: none; 
+}
+.added {
+	margin-left:15px;
+	position:relative;
+	top:50vh;
+	z-index:5555;
+}
+.delete-note {
+	margin-left:30px;
+}
